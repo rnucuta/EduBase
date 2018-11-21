@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+        <script src="feed.js" defer></script>
+    </head>
+    <body>
+    <header>
+        <h1>Your Feed</h1>
+    </header>
+    <div class="back" id="linkme">
+
+    </div>
+    <main>
+
+      <div class="back">
+        <div class="dropdown">
+    <i class="fas fa-bars" onclick="myFunction()"></i>
+        <div id="myDropdown" class="dropdown-content">
+          <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+          <a href="about.html">About</a>
+          <a href="guide.html">How To Use</a>
+          <a href="contact.html">Report A Problem</a>
+          <a href="settings.html">Settings</a>
+          <a href="resources.html">Resources</a>
+        </div>
+      </div>
+      </div>
+
+
+
+<ul class='menu--main'>
+      <!-- <button type="image" src="img_avatar.png" 2alt="Avatar" class="avatar" style="position:fixed;right:23px;top:10px" onclick="myFunction()"> -->
+      <a href="choose.html"><img src="plus.png" 2alt="Avatar" class="avatar" style="position:fixed;right:1em;bottom:1em;" onclick="add()"></a>
+
+</ul>
+    </main>
+
+    </body>
+</html>
