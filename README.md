@@ -1,2 +1,4 @@
 # EduBase
-# EduBase
+Edubase is an educational app designed for the KaiOS operating system (https://www.kaiostech.com/). It is meant for teachers to use to teach children in developing countries. Currently, it supports French, Spanish and English. Our goal with EduBase is to help provide teachers with a structured curriculum to teach their students with, especially since they are often in one-room schoolhouses with children ranging from 1st to 8th grade.
+
+The application is a web app. To run it, download a version of Firefox that is 55.0 or below. Once the download/setup is finished, open the Web IDE under developer tools and add the Firefox OS 2.2 simulator. Then click open packaged app, and click on the folder "education code day". Finally, click the run button that looks like a triangle to preview the app.
